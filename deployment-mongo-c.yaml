@@ -16,7 +16,7 @@ spec:
         application: mongo-c
     spec:
       containers:
-        - image: mirror.gcr.io/library/mongo:5.0
+        - image: quay.io/rhn-support-rjauhari/mongo:latest
           name: mongo-c
           command:
             - mongod
